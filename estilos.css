@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+    font-size: 20px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url(fotos/star.jpg);
+    
+    
+}
+
+.titulo{
+    text-align: center;
+    color:white; 
+    font-size: 30px;
+     background-color:black;
+    
+
+}
+
+div#menu {
+    background-color: rgb(5, 153, 202) ;
+    width: 61%;
+    max-width: 56.25em;
+    font-size: 1.56em;
+    margin: 0 auto;
+    padding: 70px 50px;  
+}
+div#menu a{
+    text-decoration: none;
+    list-style: none;
+    padding: 20px ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+div#menu link {
+    color: rgb(201, 204, 177);
+}
+
+
+/* visite el link */
+
+div#menu a:visited {
+    color: rgb(143, 12, 93);
+}
+
+
+/* pasar el mause -mosover link */
+
+div#menu a:hover {
+    text-decoration: underline;
+}
+
+
+/* seleccionar link */
+
+div#menu a:active {
+    color: purple;
+}
+
+
+
+
+.contenedor {
+    background-color: rgb(95, 205, 224);
+    width: 100%;
+    max-width: 817px;
+    margin: 0 auto;
+    padding: 50px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+
+
+
+.imagen img {
+    
+    width: 100%;
+    border-radius: 1%;   
+}
+.tex1{display: inline-block;
+    width: 100%;
+    border-radius: 1%;
+    margin: 5px;
+    
+
+}
+.tex2{display: inline-block;
+    width: 100%;
+    border-radius: 1%;
+    margin: 5px;
+    }
+    .tex3{display: inline-block;
+        width: 100%;
+        border-radius: 1%;
+        margin: 5px;
+        }
+
+div.sinopsis{
+    width: 100%;
+    background-color: rgb(95, 205, 224);
+    position: relative;
+    top: 45px;
+    font-size: 20px;
+    padding: 20px;
+    letter-spacing: 1px;
+   
+}
+p.fixed{font-size: 18px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 30px;
+    width: 300px;
+background-color: white;}
+
+table {
+    border-collapse:collapse;
+    width: 60px;
+    height: 2px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    margin-top: 50px;
+    text-align: center;
+}
+    
+.personajes tr,td, caption{
+    border:2px solid black;
+   padding: 15px;
+
+}
+.imagen{
+    width: 100px;
+    height: 100px; 
+}
+
+ table img{
+     width: 150px;
+     border-radius: 5px; 
+      
+ }
+ caption{
+     text-align: center;
+     background-color: rgb(93, 124, 218);
+     font-family:unset ;
+ }
+
+ .video1{
+    width:700px }
+    .titulo2{
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        
+    }
+    .titulo3{
+        text-align: center;
+        font-family: 'Open Sans Condensed', sans-serif;
+    }
+    
+h3{
+    padding: 10px;
+}
